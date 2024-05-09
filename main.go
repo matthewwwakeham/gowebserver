@@ -13,7 +13,7 @@ import (
 // Create two functions
 func getRoot(w http.ResponseWriter, r *http.Request) {
 	fmt.Printf("got / request\n")
-	io.WriteString(w, "This is my microservice!\n")
+	io.WriteString(w, "This is my website!\n")
 }
 
 func getHello(w http.ResponseWriter, r *http.Request) {
