@@ -1,2 +1,2 @@
 # gowebserver
-HTTP webserver in Golang.
+HTTP webserver in Golang that serves an html page.
